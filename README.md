@@ -1,4 +1,4 @@
-**--------------------------EN PERIODO DE PRUEBA AUN, NO UTILIZAR-----------------------------**
+Instalación rápida para xtreamcode 1.0.60 en Ubuntu 14.04 versión 2 [(Versión 1)](https://github.com/Alplox/xtreamcode).
 
 **COMANDO A EJECUTAR:** (recordar estar en modo root primero [sudo -s])
 
