@@ -14,9 +14,14 @@ wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/DLM.part1.rar
 unrar x DLM.part1.rar
 #
 cp -R /home/ubuntu/DLMc/DLM.rar  /var/www/html/ && cd /var/www/html && unrar x DLM.rar
-cp /var/www/html/DLM/downloads/iptv_panel_pro.zip /tmp/ && chmod a+x /tmp/iptv_panel_pro.zip && unzip /var/www/html/DLM/downloads/install_iptv_pro.zip
+cp /var/www/html/DLM/downloads/iptv_panel_pro.zip /tmp/
+chmod a+x /tmp/iptv_panel_pro.zip
+unzip /var/www/html/DLM/downloads/install_iptv_pro.zip /var/www/html/DLM/downloads/
+echo "               cambio directorio -> /var/www/html/DLM/downloads/                     "
 cd /var/www/html/DLM/downloads/
-cp install_iptv_pro.php /root/ && cd /root/ && chmod a+x /root/install_iptv_pro.php
+cp install_iptv_pro.php /root/
+echo "               cambio directorio -> /root/                     "
+cd /root/ && chmod a+x /root/install_iptv_pro.php
 #
 #
 echo "####################################################################################"
@@ -55,7 +60,7 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 apt-get install iptables-persistent
 #
 echo " "
-echo "Xtreamcode 1.0.60"
+echo "Xtreamcode 1.0.60 by APUNTESPLOX"
 echo " "
 echo " |\/\/\/|  "
 echo " |      |  "
