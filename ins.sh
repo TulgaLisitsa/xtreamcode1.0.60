@@ -13,6 +13,9 @@ wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/www_dir.part03.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/www_dir.part02.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/www_dir.part01.rar
 unrar x www_dir.part01.rar /tmp/
+
+
+
 #
 if [ -d /var/www/html ];
 then
