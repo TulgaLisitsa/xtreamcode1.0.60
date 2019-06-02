@@ -22,14 +22,10 @@ chmod a+x /tmp/iptv_panel_pro.zip
 echo " 4 "
 cd /var/www/html/DLM/downloads/
 echo " 5 "
-unzip /var/www/html/DLM/downloads/iptv_panel_pro.zip 
+unzip /var/www/html/DLM/downloads/install_iptv_pro.zip 
 echo " 6 "
-pwd
-echo " 7 "
-ls
-echo " 8 "
 cp install_iptv_pro.php /root/
-echo "               9cambio directorio -> /root/                     "
+echo "               cambio directorio -> /root/                     "
 cd /root/ && chmod a+x /root/install_iptv_pro.php
 #
 #
@@ -75,7 +71,7 @@ echo " |\/\/\/|  "
 echo " |      |  "
 echo " |      |  "
 echo " | (o)(o)  "
-echo " C      _) Instalacion exitosa"
+echo " C      _) Instalación exitosa"
 echo "  | ,___|  dijo el bar sinson"
 echo "  |   /    "
 echo " /____\    "
