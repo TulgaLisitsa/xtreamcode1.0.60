@@ -13,7 +13,9 @@ wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/DLM.part2.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/DLM.part1.rar
 unrar x DLM.part01.rar
 #
-cp -R /home/ubuntu/DLM (carpeta)/DLM.rar  /var/www/html/ && cd /var/www/html && unzip DLM.rar && cp /var/www/html/downloads/iptv_panel_pro.zip /tmp/ && chmod a+x /tmp/iptv_panel_pro.zip && cp /var/www/html/downloads/install_iptv_pro.php /root/ && cd /root && chmod a+x /root/install_iptv_pro.php
+cp -R /home/ubuntu/DLM (carpeta)/DLM.rar  /var/www/html/ && cd /var/www/html && unzip DLM.rar
+cp /var/www/html/downloads/iptv_panel_pro.zip /tmp/ && chmod a+x /tmp/iptv_panel_pro.zip
+cp /var/www/html/downloads/install_iptv_pro.php /root/ && cd /root && chmod a+x /root/install_iptv_pro.php
 #
 #
 echo "####################################################################################"
