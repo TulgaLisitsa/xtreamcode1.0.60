@@ -11,22 +11,23 @@ wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/www_dir.part05.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/www_dir.part04.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/www_dir.part03.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/www_dir.part02.rar
-wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/www_dir.part01.rar -O /tmp/
+wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/www_dir.part01.rar
+unrar x www_dir.part01.rar /tmp/
 #
 if [ -d /var/www/html ];
 then
     echo "/var/www/html/ exists."
-	cp -r downloads/ /var/www/html/
-	cp -r licences/ /var/www/html/
-	cp -r modules/ /var/www/html/
+	cp -r /tmp/downloads/ /var/www/html/
+	cp -r /tmp/licences/ /var/www/html/
+	cp -r /tmp/modules/ /var/www/html/
 else
     echo " "
 	if [ -d /root/www/ ];
 	then
     echo "/var/www/ exist"
-    	cp -r downloads/ /var/www/
-	cp -r licences/ /var/www/
-	cp -r modules/ /var/www/
+    	cp -r /tmp/downloads/ /var/www/
+	cp -r /tmp/licences/ /var/www/
+	cp -r /tmp/modules/ /var/www/
 else
     echo "No Webserver installed?"
 
