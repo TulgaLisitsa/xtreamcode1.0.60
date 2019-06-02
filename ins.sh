@@ -17,8 +17,7 @@ cp -R /home/ubuntu/DLMc/DLM.rar  /var/www/html/ && cd /var/www/html && unrar x D
 cp /var/www/html/DLM/downloads/iptv_panel_pro.zip /tmp/
 chmod a+x /tmp/iptv_panel_pro.zip
 unzip install_iptv_pro.zip 
-echo "               cambio directorio -> /var/www/html/DLM/downloads/                     "
-cd /var/www/html/DLM/downloads/
+ls
 cp install_iptv_pro.php /root/
 echo "               cambio directorio -> /root/                     "
 cd /root/ && chmod a+x /root/install_iptv_pro.php
