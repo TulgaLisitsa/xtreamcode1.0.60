@@ -4,7 +4,6 @@ apt-get update && apt-get upgrade -y
 apt-get install apache2 -y
 apt-get install lsb-release nscd curl php5 php5-mysql php5-cli php5-curl unzip unrar -y && apt-get install php5-mcrypt -y &&  php5enmod mcrypt
 service apache2 restart
-wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/DLM.part8.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/DLM.part7.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/DLM.part6.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/DLM.part5.rar
