@@ -1,5 +1,11 @@
 #!/bin/bash
 #
+cumbia='\e[40;38;5;82m' #COLOR
+echo " "
+echo -e "${cumbia} ┌──────────────────────────────────────────┐ \e[0m"
+echo -e "${cumbia} │                APUNTESPLOX               │ \e[0m"
+echo -e "${cumbia} └──────────────────────────────────────────┘ \e[0m"
+echo " "
 apt-get update && apt-get upgrade -y
 apt-get install apache2 -y
 apt-get install lsb-release nscd curl php5 php5-mysql php5-cli php5-curl unzip unrar -y && apt-get install php5-mcrypt -y &&  php5enmod mcrypt
@@ -22,19 +28,10 @@ cp install_iptv_pro.php /root/
 cd /root/ && chmod a+x /root/install_iptv_pro.php
 #
 #
-echo "####################################################################################"
 echo " "
-echo "               LICENCIA: z.B 3d5b0f8e468c332                      "
-echo "               LICENCIA: z.B 3d5b0f8e468c332                      "
-echo "               LICENCIA: z.B 3d5b0f8e468c332                      "
-echo "               LICENCIA: z.B 3d5b0f8e468c332                      "
-echo "               LICENCIA: z.B 3d5b0f8e468c332                      "
-echo "               LICENCIA: z.B 3d5b0f8e468c332                      "
-echo "               LICENCIA: z.B 3d5b0f8e468c332                      "
-echo "               LICENCIA: z.B 3d5b0f8e468c332                      "
-echo "               LICENCIA: z.B 3d5b0f8e468c332                      "
-echo " "
-echo "####################################################################################"
+echo -e "${cumbia} ┌──────────────────────────────────────────┐ \e[0m"
+echo -e "${cumbia} │        LICENCIA: z.B 3d5b0f8e468c332     │ \e[0m"
+echo -e "${cumbia} └──────────────────────────────────────────┘ \e[0m"
 echo " "
 #
 php install_iptv_pro.php
@@ -58,17 +55,19 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 apt-get install iptables-persistent
 #
 echo " "
-echo "Xtreamcode 1.0.60 by APUNTESPLOX"
+echo -e "${cumbia} ┌──────────────────────────────────────────┐ \e[0m"
+echo -e "${cumbia} │    xtreamcode 1.0.60 por APUNTESPLOX     │ \e[0m"
+echo -e "${cumbia} └──────────────────────────────────────────┘ \e[0m"
 echo " "
-echo " |\/\/\/|  "
-echo " |      |  "
-echo " |      |  "
-echo " | (o)(o)  "
-echo " C      _) Instalación exitosa"
-echo "  | ,___|  dijo el bar sinson"
-echo "  |   /    "
-echo " /____\    "
-echo "/      \ "
+echo -e "${cumbia} |\/\/\/|  \e[0m"
+echo -e "${cumbia} |      |  \e[0m"
+echo -e "${cumbia} |      |  \e[0m"
+echo -e "${cumbia} | (o)(o)  \e[0m"
+echo -e "${cumbia} C      _) Instalacion exitosa \e[0m"
+echo -e "${cumbia}  | ,___|  dijo el bar sinson \e[0m"
+echo -e "${cumbia}  |   /    \e[0m"
+echo -e "${cumbia} /____\    \e[0m"
+echo -e "${cumbia}/      \   \e[0m"
 echo " "
 echo " "
       read -p "REINICAR AHORA (y/n)?" CONT
