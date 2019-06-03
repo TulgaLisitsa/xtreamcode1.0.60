@@ -44,8 +44,12 @@ echo " "
 echo "####################################################################################"
 echo " "
 #
-
+#
 echo 1 > /proc/sys/net/ipv4/ip_forward
+sudo sysctl -w net.ipv4.ip_forward=1   #NUEVO
+sudo sysctl -p /etc/sysctl.conf        #NUEVO
+sysctl net.ipv4.ip_forward             #NUEVO
+#
 #
 /sbin/iptables -t nat -I OUTPUT --dest 149.202.206.51/28 -j DNAT --to-destination 127.0.0.1
 /sbin/iptables -t nat -I OUTPUT --dest 123.103.255.80/28 -j DNAT --to-destination 127.0.0.1
