@@ -39,7 +39,8 @@ echo -e "${cumbia} │            LICENCIA: licenca1            │ \e[0m"
 echo -e "${cumbia} └──────────────────────────────────────────┘ \e[0m"
 echo " "
 #
-cd /instalacionxtreamcode/
+cd
+cd instalacionxtreamcode/
 php install_iptv_pro.php
 #
 echo " "
