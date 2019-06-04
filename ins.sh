@@ -30,7 +30,7 @@ cd /root/ && chmod a+x /root/install_iptv_pro.php
 #
 echo " "
 echo -e "${cumbia} ┌──────────────────────────────────────────┐ \e[0m"
-echo -e "${cumbia} │            LICENCIA: licenca1            │ \e[0m"
+echo -e "${cumbia} │       LICENCIA: z.B 3d5b0f8e468c332      │ \e[0m"
 echo -e "${cumbia} └──────────────────────────────────────────┘ \e[0m"
 echo " "
 #
