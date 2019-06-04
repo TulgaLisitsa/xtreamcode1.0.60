@@ -366,6 +366,7 @@ cp xtreamcodes_pro_panel /etc/init.d/
 cd /etc/init.d/
 chmod 777 xtreamcodes_pro_panel
 cd
+rm -r instalacionxtreamcode/
 #
 echo " "
 echo -e "${cumbia} ┌──────────────────────────────────────────┐ \e[0m"
