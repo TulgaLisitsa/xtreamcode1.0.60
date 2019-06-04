@@ -3,7 +3,7 @@ Instalación rápida para xtreamcode 1.0.60 en Ubuntu 14.04 versión TOTALMENTE 
 **COMANDO A EJECUTAR:** (recordar estar en modo root primero [sudo -s])
 
 ```
-wget https://raw.githubusercontent.com/Alplox/xtreamcode1.0.60/master/ins.sh && chmod a+x ins.sh && ./ins.sh
+wget https://raw.githubusercontent.com/Alplox/xtreamcode1.0.60/master/in.sh && chmod a+x in.sh && ./in.sh
 ```
 **-Licencia:** licenca1
 
