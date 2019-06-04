@@ -1,11 +1,11 @@
 #!/bin/bash
 #
 verde='\e[40;38;5;82m' #COLOR VERDE
-rojito='\e[31;1m' 
+rojo='\e[31;1m'        #COLOR ROJO
 echo " "
-echo -e "${verde} ┌──────────────────────────────────────────┐ \e[0m"
-echo -e "${rojito} │                APUNTESPLOX               │ \e[0m"
-echo -e "${rojito} └──────────────────────────────────────────┘ \e[0m"
+echo -e "${rojo} ┌──────────────────────────────────────────┐ \e[0m"
+echo -e "${rojo} │                APUNTESPLOX               │ \e[0m"
+echo -e "${rojo} └──────────────────────────────────────────┘ \e[0m"
 echo " "
 apt-get update && apt-get upgrade -y
 apt-get install unzip unrar apache2 -y
