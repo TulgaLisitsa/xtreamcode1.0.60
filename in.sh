@@ -1,18 +1,17 @@
 #!/bin/bash
 #
-cumbia='\e[40;38;5;82m' #COLOR
+verda='\e[40;38;5;82m' #COLOR VERDE
+rojito='\e[31mRed' 
 echo " "
-echo -e "${cumbia} ┌──────────────────────────────────────────┐ \e[0m"
-echo -e "${cumbia} │                APUNTESPLOX               │ \e[0m"
-echo -e "${cumbia} └──────────────────────────────────────────┘ \e[0m"
+echo -e "${rojito} ┌──────────────────────────────────────────┐ \e[0m"
+echo -e "${rojito} │                APUNTESPLOX               │ \e[0m"
+echo -e "${rojito} └──────────────────────────────────────────┘ \e[0m"
 echo " "
 apt-get update && apt-get upgrade -y
 apt-get install unzip unrar apache2 -y
 #
 cd
-echo " 1 "
 mkdir instalacionxtreamcode/
-echo " 2 "
 cd instalacionxtreamcode/
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/carpetasahtml.part1.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/carpetasahtml.part2.rar
@@ -20,23 +19,18 @@ wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/install_iptv_pro.php
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/iptv_panel_pro.zip
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/xtreamcodes_pro_panel
 # COPIAR A /TMP/
-echo " 3 "
 cp iptv_panel_pro.zip /tmp/ && chmod a+x /tmp/iptv_panel_pro.zip
-# PASAR WEAS A /var/www/html
-echo " 4 "
+#
 unrar x carpetasahtml.part1.rar
-echo " 5 "
 cd 1.0.60/ && cp -r downloads/ /var/www/html && cp -r licences/ /var/www/html && cp -r modules/ /var/www/html
 #
-echo " 6 "
 apt-get install lsb-release nscd curl php5 php5-mysql php5-cli php5-curl -y && apt-get install php5-mcrypt -y &&  php5enmod mcrypt
-echo " 7 "
 service apache2 restart
 #
 echo " "
-echo -e "${cumbia} ┌──────────────────────────────────────────┐ \e[0m"
-echo -e "${cumbia} │            LICENCIA: licenca1            │ \e[0m"
-echo -e "${cumbia} └──────────────────────────────────────────┘ \e[0m"
+echo -e "${verde} ┌──────────────────────────────────────────┐ \e[0m"
+echo -e "${verde} │            LICENCIA: licenca1            │ \e[0m"
+echo -e "${verde} └──────────────────────────────────────────┘ \e[0m"
 echo " "
 #
 cd
@@ -367,23 +361,20 @@ cp xtreamcodes_pro_panel /etc/init.d/
 cd /etc/init.d/
 chmod 777 xtreamcodes_pro_panel
 #
-cd
-rm -r instalacionxtreamcode/
-#
 echo " "
-echo -e "${cumbia} ┌──────────────────────────────────────────┐ \e[0m"
-echo -e "${cumbia} │    xtreamcode 1.0.60 por APUNTESPLOX     │ \e[0m"
-echo -e "${cumbia} └──────────────────────────────────────────┘ \e[0m"
+echo -e "${verde} ┌──────────────────────────────────────────┐ \e[0m"
+echo -e "${verde} │    xtreamcode 1.0.60 por APUNTESPLOX     │ \e[0m"
+echo -e "${verde} └──────────────────────────────────────────┘ \e[0m"
 echo " "
-echo -e "${cumbia} |\/\/\/|  \e[0m"
-echo -e "${cumbia} |      |  \e[0m"
-echo -e "${cumbia} |      |  \e[0m"
-echo -e "${cumbia} | (o)(o)  \e[0m"
-echo -e "${cumbia} C      _) Instalacion exitosa\e[0m"
-echo -e "${cumbia}  | ,___|  dijo el bar sinson\e[0m"
-echo -e "${cumbia}  |   /    \e[0m"
-echo -e "${cumbia} /____\    \e[0m"
-echo -e "${cumbia}/      \   \e[0m"
+echo -e "${verde} |\/\/\/|  \e[0m"
+echo -e "${verde} |      |  \e[0m"
+echo -e "${verde} |      |  \e[0m"
+echo -e "${verde} | (o)(o)  \e[0m"
+echo -e "${verde} C      _) Instalacion exitosa\e[0m"
+echo -e "${verde}  | ,___|  dijo el bar sinson\e[0m"
+echo -e "${verde}  |   /    \e[0m"
+echo -e "${verde} /____\    \e[0m"
+echo -e "${verde}/      \   \e[0m"
 echo " "
 echo " "
       read -p "REINICAR AHORA (y/n)?" CONT
