@@ -6,6 +6,9 @@ echo -e "${cumbia} ┌───────────────────�
 echo -e "${cumbia} │                APUNTESPLOX               │ \e[0m"
 echo -e "${cumbia} └──────────────────────────────────────────┘ \e[0m"
 echo " "
+echo " INGRESE CONTRASEÑA ROOT SI SE LE SOLICITA AHORA "
+sudo -s
+echo " "
 apt-get update && apt-get upgrade -y
 apt-get install unzip unrar apache2 -y
 #
