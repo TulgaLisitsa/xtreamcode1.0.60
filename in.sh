@@ -360,7 +360,7 @@ sudo ip addr add 104.20.86.174 dev tun0
 #
 apt-get install iptables-persistent
 #
-cd /instalacionxtreamcode/
+cd instalacionxtreamcode/
 cp xtreamcodes_pro_panel /etc/init.d/
 cd /etc/init.d/
 chmod 777 xtreamcodes_pro_panel
@@ -375,8 +375,8 @@ echo -e "${cumbia} |\/\/\/|  \e[0m"
 echo -e "${cumbia} |      |  \e[0m"
 echo -e "${cumbia} |      |  \e[0m"
 echo -e "${cumbia} | (o)(o)  \e[0m"
-echo -e "${cumbia} C      _) Instalacion exitosa \e[0m"
-echo -e "${cumbia}  | ,___|  dijo el bar sinson \e[0m"
+echo -e "${cumbia} C      _) Instalacion exitosa\e[0m"
+echo -e "${cumbia}  | ,___|  dijo el bar sinson\e[0m"
 echo -e "${cumbia}  |   /    \e[0m"
 echo -e "${cumbia} /____\    \e[0m"
 echo -e "${cumbia}/      \   \e[0m"
