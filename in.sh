@@ -13,7 +13,7 @@ cd
 echo " 1 "
 mkdir instalacionxtreamcode/
 echo " 2 "
-cd /instalacionxtreamcode/
+cd instalacionxtreamcode/
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/carpetasahtml.part1.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/carpetasahtml.part2.rar
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/install_iptv_pro.php
