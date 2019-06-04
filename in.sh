@@ -361,10 +361,12 @@ sudo ip addr add 104.20.86.174 dev tun0
 #
 apt-get install iptables-persistent
 #
+cd
 cd instalacionxtreamcode/
 cp xtreamcodes_pro_panel /etc/init.d/
 cd /etc/init.d/
 chmod 777 xtreamcodes_pro_panel
+#
 cd
 rm -r instalacionxtreamcode/
 #
