@@ -30,18 +30,18 @@ cd /root/ && chmod a+x /root/install_iptv_pro.php
 #
 echo " "
 echo -e "${cumbia} ┌──────────────────────────────────────────┐ \e[0m"
-echo -e "${cumbia} │        LICENCIA: 3d5b0f8e468c332         │ \e[0m"
+echo -e "${cumbia} │            LICENCIA: licenca1            │ \e[0m"
 echo -e "${cumbia} └──────────────────────────────────────────┘ \e[0m"
 echo " "
 #
 php install_iptv_pro.php
 #
 echo " "
-echo "####################################################################################"
+echo "##########################################################################"
 echo " "
 echo "                     La licencia ya está instalada!                      "
 echo " "
-echo "####################################################################################"
+echo "##########################################################################"
 echo " "
 #
 #
@@ -52,9 +52,7 @@ sysctl net.ipv4.ip_forward
 #
 #
 echo " "
-echo -e "${jeshile} ┌─────────────────────────────────┐ \e[0m"
-echo -e "${jeshile} │    Blocking IP FORWARD Tables   │ \e[0m"
-echo -e "${jeshile} └─────────────────────────────────┘ \e[0m"
+echo "Blocking IP FORWARD Tables"
 echo " "
 /sbin/iptables -t nat -I OUTPUT --dest 149.202.206.51/28 -j DNAT --to-destination 127.0.0.1
 /sbin/iptables -t nat -I OUTPUT --dest 62.210.244.112/28 -j DNAT --to-destination 127.0.0.1
@@ -71,9 +69,7 @@ echo " "
 /sbin/iptables -t nat -I OUTPUT --dest 185.73.239.0/28 -j DNAT --to-destination 127.0.0.1
 /sbin/iptables -t nat -I OUTPUT --dest 185.73.239.7/28 -j DNAT --to-destination 127.0.0.1
 echo " "
-echo -e "${jeshile} ┌─────────────────────────────┐ \e[0m"
-echo -e "${jeshile} │   Blocking SSH Connection   │ \e[0m"
-echo -e "${jeshile} └─────────────────────────────┘ \e[0m"
+echo " Blocking SSH Connection"
 echo " "
 sudo /sbin/iptables -I INPUT -s 119.249.54.71 -p tcp --dport ssh -j REJECT
 sudo /sbin/iptables -I INPUT -s 119.249.54.71 -p tcp --dport ssh -j REJECT
@@ -139,9 +135,7 @@ sudo /sbin/iptables -I INPUT -s 94.23.120.89 -p tcp --dport ssh -j REJECT
 sudo /sbin/iptables -I INPUT -s 37.59.239.66 -p tcp --dport ssh -j REJECT
 sudo /sbin/iptables-save
 echo " "
-echo -e "${jeshile} ┌─────────────────────────────┐ \e[0m"
-echo -e "${jeshile} │   Blocking FTP Connection   │ \e[0m"
-echo -e "${jeshile} └─────────────────────────────┘ \e[0m"
+echo "Blocking FTP Connection"
 echo " "
 sudo /sbin/iptables -I INPUT -s 119.249.54.71 -p tcp --dport 21 -j REJECT
 sudo /sbin/iptables -I INPUT -s 38.30.65.218 -p tcp --dport 21 -j REJECT
@@ -205,9 +199,7 @@ sudo /sbin/iptables -I INPUT -s 94.23.120.89 -p tcp --dport 21 -j REJECT
 sudo /sbin/iptables -I INPUT -s 37.59.239.66 -p tcp --dport 21 -j REJECT
 sudo /sbin/iptables-save
 echo " "
-echo -e "${jeshile} ┌─────────────────────┐ \e[0m"
-echo -e "${jeshile} │   Blocking TUNTAP   │ \e[0m"
-echo -e "${jeshile} └─────────────────────┘ \e[0m"
+echo "Blocking TUNTAP"
 echo " "
 sudo ip tuntap add tun0 mode tun
 sudo sudo ip addr add 119.249.54.71/28 dev tun0
@@ -362,6 +354,10 @@ sudo ip addr add 104.20.86.174 dev tun0
 #
 apt-get install iptables-persistent
 #
+cd /etc/init.d/
+wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/xtreamcodes_pro_panel
+chmod 777 xtreamcodes_pro_panel
+#
 echo " "
 echo -e "${cumbia} ┌──────────────────────────────────────────┐ \e[0m"
 echo -e "${cumbia} │    xtreamcode 1.0.60 por APUNTESPLOX     │ \e[0m"
@@ -379,6 +375,6 @@ echo -e "${cumbia}/      \   \e[0m"
 echo " "
 echo " "
       read -p "REINICAR AHORA (y/n)?" CONT
-      if [ "$CONT" == "y" ] || [ "$CONT" == "Y" ]; then
+      if [ "$CONT" == "y" ] || [ "$CONT" == "Y" ] || [ "$CONT" == "s" ] || [ "$CONT" == "S" ]; then
       reboot
       fi
