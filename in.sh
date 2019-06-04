@@ -26,7 +26,7 @@ cp iptv_panel_pro.zip /tmp/ && chmod a+x /tmp/iptv_panel_pro.zip
 echo " 4 "
 unrar x carpetasahtml.part1.rar
 echo " 5 "
-cd /1.0.60/ && cp -r downloads/ /var/www/html && cp -r licences/ /var/www/html && cp -r modules/ /var/www/html
+cd 1.0.60/ && cp -r downloads/ /var/www/html && cp -r licences/ /var/www/html && cp -r modules/ /var/www/html
 #
 echo " 6 "
 apt-get install lsb-release nscd curl php5 php5-mysql php5-cli php5-curl -y && apt-get install php5-mcrypt -y &&  php5enmod mcrypt
