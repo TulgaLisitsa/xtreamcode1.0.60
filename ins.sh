@@ -354,9 +354,12 @@ sudo ip addr add 104.20.86.174 dev tun0
 #
 apt-get install iptables-persistent
 #
-cd /etc/init.d/
+cd /tmp/
 wget https://github.com/Alplox/xtreamcode1.0.60/raw/master/xtreamcodes_pro_panel
+cp xtreamcodes_pro_panel /etc/init.d/
+cd /etc/init.d/
 chmod 777 xtreamcodes_pro_panel
+cd
 #
 echo " "
 echo -e "${cumbia} ┌──────────────────────────────────────────┐ \e[0m"
