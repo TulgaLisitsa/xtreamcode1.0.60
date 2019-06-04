@@ -1,9 +1,9 @@
 #!/bin/bash
 #
-verda='\e[40;38;5;82m' #COLOR VERDE
-rojito='\e[31' 
+verde='\e[40;38;5;82m' #COLOR VERDE
+rojito='\e[31;1m' 
 echo " "
-echo -e "${rojito} ┌──────────────────────────────────────────┐ \e[0m"
+echo -e "${verde} ┌──────────────────────────────────────────┐ \e[0m"
 echo -e "${rojito} │                APUNTESPLOX               │ \e[0m"
 echo -e "${rojito} └──────────────────────────────────────────┘ \e[0m"
 echo " "
