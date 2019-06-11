@@ -1,5 +1,7 @@
 Instalación rápida para xtreamcode 1.0.60 en Ubuntu 14.04 TOTALMENTE hosteada en Github.
 
+[Video tutorial](https://apuntesplox.blogspot.com/2018/09/como-instalar-xtreamcode-1060-ubuntu.html)
+
 **COMANDO A EJECUTAR:** (recordar estar en modo root primero [sudo -s])
 
 ```
