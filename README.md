@@ -1,4 +1,5 @@
 # Instalación rápida para xtreamcode 1.0.60 en Ubuntu 14.04.
+[Video tutorial](https://www.youtube.com/watch?v=CGWH5vEFqAE)
 
 [![Video tutorial:](https://img.youtube.com/vi/CGWH5vEFqAE/0.jpg)](https://www.youtube.com/watch?v=CGWH5vEFqAE)
 
