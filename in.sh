@@ -29,7 +29,7 @@ service apache2 restart
 #
 echo " "
 echo -e "${verde} ┌──────────────────────────────────────────┐ \e[0m"
-echo -e "${verde} │            LICENCIA: licenca1            │ \e[0m"
+echo -e "${verde} │       LICENCIA / LICENSE: licenca1       │ \e[0m"
 echo -e "${verde} └──────────────────────────────────────────┘ \e[0m"
 echo " "
 #
@@ -40,7 +40,8 @@ php install_iptv_pro.php
 echo " "
 echo "##########################################################################"
 echo " "
-echo "                     La licencia ya está instalada!                      "
+echo "                     La licencia ha sido instalada!                      "
+echo "                     The license has been installed!                      "
 echo " "
 echo "##########################################################################"
 echo " "
@@ -363,7 +364,7 @@ chmod 777 xtreamcodes_pro_panel
 #
 echo " "
 echo -e "${verde} ┌──────────────────────────────────────────┐ \e[0m"
-echo -e "${verde} │    xtreamcode 1.0.60 por APUNTESPLOX     │ \e[0m"
+echo -e "${verde} │     xtreamcode 1.0.60 by APUNTESPLOX     │ \e[0m"
 echo -e "${verde} └──────────────────────────────────────────┘ \e[0m"
 echo " "
 echo -e "${verde} |\/\/\/|  \e[0m"
@@ -376,8 +377,10 @@ echo -e "${verde}  |   /    \e[0m"
 echo -e "${verde} /____\    \e[0m"
 echo -e "${verde}/      \   \e[0m"
 echo " "
+echo -e "${verde} Installation successful! \e[0m"
 echo " "
-      read -p "REINICAR AHORA (y/n)?" CONT
+echo " "
+      read -p "REINICAR AHORA / REBOOT NOW (y/n)?" CONT
       if [ "$CONT" == "y" ] || [ "$CONT" == "Y" ] || [ "$CONT" == "s" ] || [ "$CONT" == "S" ]; then
       reboot
       fi
