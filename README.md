@@ -15,7 +15,7 @@ Otras versiones en más detalle en: [ApuntesPlox](https://apuntesplox.blogspot.c
 
 _______________________
 
-# ENGLISH VERSIÓN BELOW
+# ENGLISH VERSION BELOW
 ## Quick installation for xtreamcode 1.0.60 on Ubuntu 14.04.
 
 [Video tutorial (SPANISH)](https://www.youtube.com/watch?v=CGWH5vEFqAE)
