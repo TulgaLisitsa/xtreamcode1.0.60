@@ -1,3 +1,10 @@
+# NO FUNCIONAL hasta nuevo aviso debido a cierre de Xtream Codes
+Relevante: 
+
+https://www.elespanol.com/omicrono/20190919/cierran-plataforma-canales-pirata-iptv-famosa/430457160_0.html
+
+https://www.google.com/search?q=xtream+code+cierra
+
 # Instalación rápida para xtreamcode 1.0.60 en Ubuntu 14.04.
 [Video tutorial](https://www.youtube.com/watch?v=CGWH5vEFqAE)
 
