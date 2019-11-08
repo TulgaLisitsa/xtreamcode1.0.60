@@ -1,20 +1,18 @@
 # NO FUNCIONAL hasta nuevo aviso debido a cierre de Xtream Codes
 Relevante: 
-
 https://www.elespanol.com/omicrono/20190919/cierran-plataforma-canales-pirata-iptv-famosa/430457160_0.html
-
 https://www.google.com/search?q=xtream+code+cierra
 
 
 # Alternativa Funcionando:
 https://www.apuntesplox.xyz/2019/11/como-instalar-xtreamui-iptv-ubuntu-1804.html
+[Video](https://youtu.be/h_mBXfmUttQ)
 
-
-
+[![Video tutorial:](https://img.youtube.com/vi/h_mBXfmUttQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=h_mBXfmUttQ)
 
 _______________________
 
-# Instalación rápida para xtreamcode 1.0.60 en Ubuntu 14.04.
+# Antigua Instalación rápida para xtreamcode 1.0.60 en Ubuntu 14.04.
 [Video tutorial](https://www.youtube.com/watch?v=CGWH5vEFqAE)
 
 [![Video tutorial:](https://img.youtube.com/vi/CGWH5vEFqAE/0.jpg)](https://www.youtube.com/watch?v=CGWH5vEFqAE)
