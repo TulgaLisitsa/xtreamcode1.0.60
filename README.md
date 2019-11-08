@@ -5,6 +5,15 @@ https://www.elespanol.com/omicrono/20190919/cierran-plataforma-canales-pirata-ip
 
 https://www.google.com/search?q=xtream+code+cierra
 
+
+# Alternativa Funcionando:
+https://www.apuntesplox.xyz/2019/11/como-instalar-xtreamui-iptv-ubuntu-1804.html
+
+
+
+
+_______________________
+
 # Instalación rápida para xtreamcode 1.0.60 en Ubuntu 14.04.
 [Video tutorial](https://www.youtube.com/watch?v=CGWH5vEFqAE)
 
