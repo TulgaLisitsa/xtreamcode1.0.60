@@ -62,4 +62,3 @@ wget https://raw.githubusercontent.com/Alplox/xtreamcode1.0.60/master/in.sh && c
 Others versions in more detail only in spanish here: [ApuntesPlox](https://apuntesplox.blogspot.com/2018/09/como-instalar-xtreamcode-1060-ubuntu.html).
 ___
 [![HitCount](http://hits.dwyl.io/{Alplox}/{xtreamcode1.0.60}.svg)](http://hits.dwyl.io/{Alplox}/{xtreamcode1.0.60})
-[![HitCount](http://hits.dwyl.io/{Alplox}/{tele}.svg)](http://hits.dwyl.io/{Alplox}/{tele})
